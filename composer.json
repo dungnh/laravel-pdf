@@ -1,14 +1,14 @@
 {
-    "name": "niklasravnsborg/laravel-pdf",
-    "description": "Generate PDFs in Laravel with this mPDF wrapper.",
+    "name": "coliving/laravel-pdf",
+    "description": "Generate PDFs in Laravel with this mPDF wrapper. This package is folks from niklasravnsborg/laravel-pdf",
     "keywords": ["mpdf", "pdf", "laravel"],
     "license": "MIT",
     "scripts": {
         "test": "phpunit --colors=always"
     },
     "require": {
-        "php": ">=7.0",
-        "mpdf/mpdf": "^8.0"
+        "php": "^7.0 || ^8.0 || ^8.1 || ^8.2 || ^8.3",
+        "mpdf/mpdf": "^8.2"
     },
     "autoload": {
         "psr-4": {
@@ -31,7 +31,7 @@
         }
     },
     "require-dev": {
-        "phpunit/phpunit": "^7.4",
-        "orchestra/testbench": "^3.7"
+        "phpunit/phpunit": "^9.0",
+        "orchestra/testbench": "^8.0"
     }
 }
