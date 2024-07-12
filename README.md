@@ -1,8 +1,8 @@
 > [!WARNING]  
-> niklasravnsborg/laravel-pdf is not maintained! This repository has been deprecated and archived on 2023-08-22.
+> Generate PDFs in Laravel with this mPDF wrapper. This package is folks from niklasravnsborg/laravel-pdf as it is not maintained!
 > Look at https://github.com/misterspelik/laravel-pdf for a potential alternative.
 
-# Laravel PDF: mPDF wrapper for Laravel 5
+# Laravel PDF: mPDF wrapper for Laravel
 
 > Easily generate PDF documents from HTML right inside of Laravel using this mPDF wrapper.
 
@@ -12,7 +12,7 @@
 Require this package in your `composer.json` or install it by running:
 
 ```
-composer require niklasravnsborg/laravel-pdf
+composer require coliving/laravel-pdf
 ```
 
 > Note: This package supports auto-discovery features of Laravel 5.5+, You only need to manually add the service provider and alias if working on Laravel version lower then 5.5
